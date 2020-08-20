@@ -108,9 +108,6 @@ os.remove(artxiboa)
 
 a=LetraDenbLortu(artx)
 
-print(a)
-print(output)
-
 out=[]
 j=0
 k=0
@@ -134,8 +131,6 @@ for t in range(0,len(output)):
             out.append(a[0][k])
             out.append('\n\n')
             k=k+1
-
-print(out)
 
 for i in range(0,len(out)):
     print(out[i],end='')
